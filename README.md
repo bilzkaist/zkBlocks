@@ -21,7 +21,7 @@ Interoperability and composability - paving the way for the future of blockchain
 > Expect rapid iteration.
 > **Using at my own risk.**
 
-### First time?
+### Getting Started?
 
 Before installing Cairo on your machine, you need to install `gmp`:
 
@@ -37,10 +37,10 @@ brew install gmp # mac
 Create a directory for your project, then `cd` into it and create a Python virtual environment.
 
 ```bash
-mkdir my-project
-cd my-project
-python3 -m venv env
-source env/bin/activate
+mkdir zkBlocks
+cd zkBlocks
+python3 -m venv zkBlocks
+source zkBlocks/bin/activate
 ```
 
 Install the [Nile](https://github.com/OpenZeppelin/nile) development environment and then run `init` to kickstart a new project. Nile will create the project directory structure and install [the Cairo language](https://www.cairo-lang.org/docs/quickstart.html), a [local network](https://github.com/Shard-Labs/starknet-devnet/), and a [testing framework](https://docs.pytest.org/en/6.2.x/).
